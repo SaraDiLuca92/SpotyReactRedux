@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.songsss h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-search {
+  margin-bottom: 20px;
+}
+
+.sidebar-search input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar-search ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-search li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebar-search li:hover {
+  background-color: #e6e6e6;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: black;
+}
+.sidebar ul {
+  margin-top: 10px;
+}
+.sidebar li {
+  color: lightgray;
+}
+.buttonbottom {
+  margin-top: 400px;
+}
+.buttonbottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttonbottom button {
+  border-radius: 50px;
+}
+.white {
+  background-color: white !important;
+  color: black !important;
+}
+.black {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+.insieme {
+  display: flex;
+}
+.insieme button {
+  height: 43px;
+  background-color: black;
+  border: 1px solid grey;
+}
+.songsss {
+  width: 70%;
+  margin-left: 300px;
+}
+.sidebar {
+  z-index: 999;
+}
+.me-auto {
+  margin-left: 300px;
+  gap: 80px;
+}
+.artist.my-5.container {
+  margin-left: 200px;
+  width: 80%;
+}
+.FORALBUMS.container {
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 90%;
+}
+.FORALBUMS.container h1 {
+  margin-left: 25px;
+}
+
+.sidebar {
+  background-color: #f5f5f5;
+  height: 100vh;
+  position: fixed;
+}
+
+.main-content {
+  margin-left: 200px; /* Change this to match the width of your sidebar */
+  padding: 20px;
+}
+.divnav {
+  display: flex;
+}
